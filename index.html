@@ -3,8 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Phone-Book</title>
-    
+    <title>PhoneBook</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #f7f7f7;
+      }
+
+      .contact-container {
+        width: 350px;
+        border: 2px solid #4CAF50;
+        border-radius: 10px;
+        padding: 20px;
+        background: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      .contact-container .heading {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      .contact-container input[type="text"] {
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+
+      .contact-container button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .contact-container button:hover {
+        background: #45a049;
+      }
+
+      .contact-container p {
+        margin-top: 15px;
+        font-size: 16px;
+        color: #555;
+      }
+    </style>
   </head>
   <body>
     <div class="contact-container">
